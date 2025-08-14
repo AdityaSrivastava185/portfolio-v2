@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="md:px-20 px-7 mb-20">
+      <div className="md:px-20 px-3 mb-20">
         <Navbar />
         <HeroSection/>
         <About />

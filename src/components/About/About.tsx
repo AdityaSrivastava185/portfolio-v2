@@ -5,7 +5,7 @@ import Socials from '../Socials/Socials'
 const About = () => {
     return (
         <section className='section-border'>
-            <div className='flex flex-row items-center justify-between pt-3'>
+            <div className='flex flex-row items-center justify-between pt-3 px-3 md:px-0'>
                 <p className='text-muted-foreground jetbrains-mono text-xs'>[01/05]</p>
                 <p className='text-muted-foreground jetbrains-mono uppercase text-xs'>positioning</p>
                 <p className='uppercase jetbrains-mono text-xs'>About me</p>

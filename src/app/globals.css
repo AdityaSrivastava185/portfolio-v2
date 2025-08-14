@@ -121,7 +121,7 @@
     @apply bg-background text-foreground;
   }
   .section-border {
-    @apply px-7 border-1 border-border;
+    @apply md:px-7 border-1 border-border;
   }
 }
 .jetbrains-mono {

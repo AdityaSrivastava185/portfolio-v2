@@ -24,12 +24,12 @@ const Navbar = () => {
                     }
                 </div>
             </div>
-            <div className='md:hidden mt-10 md:mt-0 flex flex-row items-center justify-between'>
+            <div className='md:hidden mt-7 md:mt-0 flex flex-row items-center justify-between border-b-1 pb-2 border-border'>
                <div>
-                    <h1 className='font-sans font-bold text-xl tracking-tighter'>{Name}</h1>
+                    <h1 className='font-sans font-bold md:text-xl jetbrains-mono uppercase text-sm tracking-tighter'>{Name}</h1>
                 </div> 
                 <div>
-                    <button className='jetbrains-mono text-md tracking-tight bg-foreground text-background px-3 py-2 rounded-md'>Github</button>
+                    <button className='jetbrains-mono text-xs tracking-tight bg-foreground text-background px-3 py-2 rounded-full'>Github</button>
                 </div>
             </div>
         </>

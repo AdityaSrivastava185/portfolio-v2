@@ -4,13 +4,13 @@ import React from 'react'
 const Miscellaneous = () => {
   return (
     <section className='section-border'>
-      <div className='flex flex-row items-center justify-between pt-3 border-border'>
+      <div className='flex flex-row items-center justify-between pt-3 border-border px-3 md:px-0' >
         <p className='text-muted-foreground jetbrains-mono text-xs'>[04/05]</p>
-        <p className='text-muted-foreground jetbrains-mono uppercase text-xs'>Certification</p>
+        <p className='text-muted-foreground jetbrains-mono uppercase text-xs'></p>
         <p className='uppercase jetbrains-mono text-xs'>Miscellaneous</p>
       </div>
-      <div className='md:pb-20 my-10 md:my-0 md:pt-10 max-w-3xl mx-auto'>
-        <ul className="list-disc pl-5 md:text-balance space-y-2">
+      <div className='md:pb-20 my-10 md:my-0 md:pt-10 max-w-3xl mx-auto px-3 md:px-0'>
+        <ul className="list-disc pl-5 text-sm md:text-balance space-y-2 uppercase jetbrains-mono tracking-tighter">
           <li>Founding <Link href={"https://boring-designer.com"} className="text-blue-500 underline">@Boring-Designer</Link></li>
           <li>Certification by <Link href={"https://lfx.linuxfoundation.org/tools/mentorship/"} className="text-blue-500 underline">Linux Foundation</Link> in Open Source Technical Documentations Essentials (LFC111)</li>
           <li>

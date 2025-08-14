@@ -18,11 +18,11 @@ const Card: React.FC<CardProps> = ({ id, title, description, github, live }) => 
           <p>/ [{String(id).padStart(2, '0')}]</p>
         </div>
         <div>
-          <p className='text-foreground text-3xl font-bold jetbrains-mono uppercase pt-7'>{title}</p>
-          <p className='text-sm jetbrains-mono text-muted-foreground uppercase pt-2'>{description}</p>
+          <p className='text-foreground text-xl md:text-3xl font-bold jetbrains-mono uppercase pt-3 md:pt-7'>{title}</p>
+          <p className='text-xs md:text-sm jetbrains-mono text-muted-foreground uppercase pt-2'>{description}</p>
         </div>
       </div>
-      <div>
+      <div className='mt-10'>
         <div className='flex flex-row items-center gap-3'>
           <Link href={github} className='text-sm text-foreground uppercase hover:text-muted-foreground hover:underline jetbrains-mono'>
             View on github

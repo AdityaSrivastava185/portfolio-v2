@@ -1,5 +1,5 @@
 // Name
-export const Name = "{ anshika-singh }";
+export const Name = "Boring-Designer";
 
 // Hero Title
 export const HeroTitle = "Hi . My name goes by boring designer";
